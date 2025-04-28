@@ -2,10 +2,10 @@ Pod::Spec.new do |s|
   s.name         = "ffmpeg_kit"
   s.version      = "6.0"
   s.summary      = "ffmpeg_kit"
-  s.homepage     = "https://gitcode.net/dcloud/unimpsdk-ios"
+  s.homepage     = "https://github.com/snice/ffmpeg_kit"
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
-  s.author             = { "wangzhitong" => "wangzhitong@dcloud.io" }
-  s.source       = { :git => "https://gitcode.net/dcloud/unimpsdk-ios.git", :tag => "#{s.version}"}
+  s.author             = { "snice" => "zhuzheteng@gmail.com" }
+  s.source       = { :git => "https://github.com/snice/ffmpeg_kit.git", :tag => "#{s.version}"}
   s.default_subspec = 'Core'
   s.platform     = :ios, '13.0'
 
